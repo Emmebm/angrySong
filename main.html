@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>La cançó enfadosa</title>
+</head>
+<body>
+  <div class="scene">
+    <div class="center"></div>
+  </div>
+    <p>La cançó enfadosa</p>
+    <div class="container" id="joc">
+      <h2 class="enunciatPrevi">Vols que et canti la cançó enfadosa?</h2>
+      <h2 class="enunciatJoc">Jo no he dit "<span class="enunciatResposta"></span>", he dit que si vols que et canti la cançó enfadosa?</h2>
+      <form action="">
+        <input type="text" id="entradaResposta" placeholder="La teva resposta">
+        <button type="submit" id="botoResposta">Enviar</button>
+      </form>
+      
+    </div>
+    <div class="container respostaCorrecta">
+      <h1>Molt bé, has aconseguit sortir del joc!!</h1>
+      <form action="" autocomplete="off">
+        <button type="submit" class="botoReinicia">Tornar a jugar</button>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

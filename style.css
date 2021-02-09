@@ -1,0 +1,56 @@
+/* Funcionalitat */
+.enunciatJoc,
+.respostaCorrecta {
+  display: none;
+}
+
+/* Estil */
+body {
+  color: white;
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Spartan", sans-serif;
+}
+.container {
+  margin-top: 12em;
+}
+
+#entradaResposta {
+  width: 25em;
+}
+
+#botoResposta,
+.container .botoReinicia {
+  color: #3f4c6b;
+  background: white;
+}
+/* Visuals */
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px #fff;
+}
+
+.scene i {
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  filter: blur(0.2px);
+}
